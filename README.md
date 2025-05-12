@@ -7,5 +7,6 @@
 Scoreboard board = new Scoreboard();
 board.startGame("Mexico", "Canada");
 board.updateScore("Mexico", "Canada", 0, 5);
+board.finishGame();
 board.getSummary().forEach(System.out::println);
 ```
